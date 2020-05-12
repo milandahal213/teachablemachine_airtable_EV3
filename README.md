@@ -171,6 +171,8 @@ Also enter the APIKey and BaseID for your  Airtable document in their respective
 <br>
 Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on where to find them.
 
+<i>Note: If you have not edited the Table name and Field name on your Airtable you don't need to enter anything on the Table name and Field name. They will use the default names. 
+
 
  <br>
  <br> 
