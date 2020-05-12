@@ -208,7 +208,9 @@ If you would like to record all the sound results then simply remove the section
 ![apiupdate](/images/code.png)
  
  </details>
+ 
 # Setting up the library
+
 <details>
   <summary>Using the library</summary>
    
