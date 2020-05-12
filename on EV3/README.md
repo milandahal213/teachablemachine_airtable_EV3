@@ -5,7 +5,7 @@
 </br>
 </br> https://github.com/milandahal213/teachablemachine_airtable_EV3/tree/master/on%20EV3
 
-![login screen](/"on Ev3"/images/airtable_welcome.png)
+![login screen](/images/airtable_welcome.png)
 
 </br>
 </br>
