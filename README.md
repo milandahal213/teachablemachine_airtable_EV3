@@ -90,7 +90,11 @@ Similarly, Obtain APIKey and BaseID for your Airtable document and replace the t
 After editing the html file with model url, APIKey and BaseID open it on your browser and hit start button. 
 If it hears one of your trained models it creates a record on the Airtable document.
 
-The Airtable document is  updated only when a different sound is registered. For example, if I have a model with snap and ticking sound and I snap twice Airtable will only update the record with snap once. This is done to avoid unnecessarily creating too many records. 
+
+</br>
+</br>
+<i> proceed with caution here </i>
+The Airtable document is  updated only when a different sound is registered. For example, if I have a model to detect snapping and ticking sound and I snap twice Airtable will  be updated only once with snap. This is done to avoid unnecessarily creating too many records. 
 
 If you would like to record all the sound results then simply remove the section below with sendData(classLabels[highestIndex]);
 
