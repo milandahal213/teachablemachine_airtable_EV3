@@ -15,9 +15,6 @@ Go to https://teachablemachine.withgoogle.com/ and click on Get Started button
 <details>
 <summary> 2.	Select the Audio Project</summary>
 
-<h3></h3>
-</br>
-</br> 
 
 ![audio project](/images/audioproject.png)
 
@@ -26,13 +23,10 @@ Go to https://teachablemachine.withgoogle.com/ and click on Get Started button
 </details>
  
 <details>
-<summary>3.	Click “Upload my model” and copy the URL  </summary>
+<summary>3.	Record sounds to train your model  </summary>
 
-<h3> 1.	Train your Teachable Machine code.</h3>
-</br>
-</br> 
-
-![login screen](/images/airtable_welcome.png)
+Click on the microphone button to start recording. Record more samples for accuracy. Then click the Train Model button.
+![trainingscreen](/images/trainingscreen1.png)
 
 </br>
 </br>
