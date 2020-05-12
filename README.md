@@ -4,7 +4,7 @@ Setting up the html file:
 <details>
 <summary>1.	Train your Teachable Machine code. </summary>
 
-Go to https://teachablemachine.withgoogle.com/ and click on Get Started
+Go to https://teachablemachine.withgoogle.com/ and click on Get Started button
 
 ![Getting started](/images/getstarted.png)
 
@@ -13,13 +13,13 @@ Go to https://teachablemachine.withgoogle.com/ and click on Get Started
 </details>
  
 <details>
-<summary> 2.	Click the “Export Model” button</summary>
+<summary> 2.	Select the Audio Project</summary>
 
 <h3></h3>
 </br>
 </br> 
 
-![login screen](/images/airtable_welcome.png)
+![audio project](/images/audioproject.png)
 
 </br>
 </br>
