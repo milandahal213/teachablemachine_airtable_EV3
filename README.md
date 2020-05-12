@@ -4,7 +4,7 @@ Setting up the html file:
 <details>
 <summary>1.	Train your Teachable Machine code. </summary>
 
-
+Go to https://teachablemachine.withgoogle.com/ and click on Get Started
 
 ![Getting started](/images/getstarted.png)
 
