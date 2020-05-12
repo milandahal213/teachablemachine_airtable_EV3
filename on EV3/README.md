@@ -3,9 +3,9 @@
 <h2>Creating account - Creating Base </h2> </br>
 <h3> 1. Go to https://airtable.com </h3>
 </br>
-</br> 
+</br> https://github.com/milandahal213/teachablemachine_airtable_EV3/tree/master/on%20EV3
 
-![login screen](/on Ev3/images/airtable_welcome.png)
+![login screen](/"on Ev3"/images/airtable_welcome.png)
 
 </br>
 </br>
