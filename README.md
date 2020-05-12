@@ -67,9 +67,7 @@
 
 Download the TeachableAudio.html file from <i> On PC </i> folder. 
 
-<details>
- 
-<summary> Setting up the html file:</summary>
+
 
  <details>
  <summary> 1.	Train your Teachable Machine code. </summary>
@@ -184,7 +182,7 @@ Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> 
 
  </details>
 
-</details>
+
 
 <details>
  
