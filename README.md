@@ -161,19 +161,23 @@ Download the TeachableAudio.html file from <i> On PC </i> folder.
 
  <details>
 
- <summary> 6.	Edit the TeachableAudio.html file. </summary>
+ <summary> 6.	Running the TeachableAudio.html file. </summary>
 
  <br>
  <br>  
 
- Right-click and open the downloaded TeachableAudio.html file in a text editor like Sublime Text or VSCode. In the editable section of the html file, <br> 
- Paste the model url in the URL line. <br>
- Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables.  Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on how to do it.
+Open the TeachableAudio.html file on a browser of your choice. We have tested it on Chrome. 
+
+Enter the url from Step 5 in the text box saying <i>url</i>.
+Also enter the APIKey and BaseID for your  Airtable document in their respective boxes.
+<br>
+Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on where to find them.
+
 
  <br>
  <br> 
 
- ![apiupdate](/images/updateapi.png)
+ ![apiupdate](/images/html.png)
 
  <br>
  <br> 
@@ -184,32 +188,18 @@ Download the TeachableAudio.html file from <i> On PC </i> folder.
 
 <details>
  
-<summary> Using the html file:</summary>
+<summary> Optional: editing the html file:</summary>
  
 <br>
 <br> 
+<i> please proceed with caution...</i>
 
-After editing the html file with model url, APIKey and BaseID open it on your browser and hit start button. 
-If it hears one of your trained models it creates a record on the Airtable document.
-
-
-<br>
-<br> 
-
-<i> proceed with caution from here on...</i>
+If you want to edit the html file or want to see how the code is written,  right-click and open the html file on an editor. 
 
 <br>
 <br> 
 
-The Airtable document is  updated only when a different sound is registered. For example, if I have a model to detect snapping and ticking sound and I snap twice subsequently Airtable will  be updated with only one snap record. In other words, the Airtable will only register the change in the input audio.  This is done to avoid unnecessarily creating too many records. 
 
-<br>
-<br> 
-
-If you would like to record all the sound results then simply remove the section below with sendData(classLabels[highestIndex]);
-
-![apiupdate](/images/code.png)
- 
  </details>
  
 # Setting up the library on EV3
