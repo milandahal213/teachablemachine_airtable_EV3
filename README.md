@@ -165,7 +165,7 @@
 
  Download and right-click and open the TeachableAudio.html file in a text editor like Sublime Text or VSCode. 
  Paste the model url in the URL line. 
- Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables. Refer to airtable section above on how to do that. 
+ Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables.  Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on how to do it.
 
  <br>
  <br> 
@@ -208,3 +208,53 @@ If you would like to record all the sound results then simply remove the section
 ![apiupdate](/images/code.png)
  
  </details>
+# Setting up the library
+<details>
+  <summary>Using the library</summary>
+   
+<h3> 0. Download secrets.py and airtable.py to your EV3.</h3>
+
+
+<h3> 1. Edit the secrets.py file</h3>
+
+Edit the secrets.py file by replacing BaseID and API Key from your account. Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on how to do it.
+
+<h3> 2. Understand the demo.py file</h3>
+
+The demo.py file contains information on how to use the available Airtable functions. You may not need to use all of them, but it is useful to know what else you can do. 
+
+In summary, you will use Get_AT and Get_AT_field functions to read single or full set of records, you will use Put_AT to create a record and Delete_AT to delete a record.
+
+<details>
+<summary>Put_AT</summary>
+        
+Put_AT('Table_name','Field_name','Record_value') 
+Put_AT function adds a record in the Field_name Field of the  Table_name Table with the value Record_value
+The function returns the record id for the updated record (useful for deleting)
+
+</details>
+<details>
+        
+<summary>Get_AT</summary>
+
+Get_AT('Table_name','Field_name') returns the last record from the Field_name Field of the Table_name Table.   
+
+</details>
+<details>
+<summary>Get_AT_field</summary>
+        
+Get_AT_field('Table_name','Field_name') returns the entire list of record from the Field_name Field of the Table_name Table. The return value will be a list. Users will need to use indexing to access individual records. use [-1] to access the last record. 
+
+</details>
+<details>
+<summary>Delete_AT</summary>
+
+Delete_AT('Table_name',"record_id")  deletes the  record with "record_id" from the Table_name Table.
+
+</details>
+
+<h3> 3. Edit the main.py file</h3>
+
+
+
+</details>
