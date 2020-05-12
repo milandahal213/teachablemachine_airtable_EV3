@@ -3,114 +3,114 @@
  
 <summary> Setting up the html file:</summary>
 
-<details>
-<summary>1.	Train your Teachable Machine code. </summary>
+ <details>
+ <summary> 1.	Train your Teachable Machine code. </summary>
 
-<br>
-<br> 
+ <br>
+ <br> 
 
-Go to https://teachablemachine.withgoogle.com/ and click on Get Started button
+ Go to https://teachablemachine.withgoogle.com/ and click on Get Started button
 
-<br>
-<br> 
+ <br>
+ <br> 
 
-![Getting started](/images/getstarted.png)
+ ![Getting started](/images/getstarted.png)
 
-<br>
-<br> 
-</details>
- 
-<details>
- 
-<summary> 2.	Select the Audio Project</summary>
+ <br>
+ <br> 
+ </details>
 
-<br>
-<br> 
+ <details>
 
-![audio project](/images/audioproject.png)
+ <summary> 2.	Select the Audio Project</summary>
 
-<br>
-<br> 
+ <br>
+ <br> 
 
-</details>
- 
-<details>
- 
-<summary>3.	Record sounds to train your model  </summary>
+ ![audio project](/images/audioproject.png)
 
-<br>
-<br> 
+ <br>
+ <br> 
 
-Click on the microphone button to start recording. Record more samples for accuracy. Then click the Train Model button.
+ </details>
 
-<br>
-<br> 
+ <details>
 
-![trainingscreen](/images/trainingscreen1.png)
+ <summary> 3.	Record sounds to train your model  </summary>
 
-<br>
-<br> 
+ <br>
+ <br> 
 
-</details>
+ Click on the microphone button to start recording. Record more samples for accuracy. Then click the Train Model button.
 
-<details>
- 
-<summary>4. Export your Model.  </summary>
+ <br>
+ <br> 
 
-<br>
-<br> 
+ ![trainingscreen](/images/trainingscreen1.png)
 
-Once you have recorded all samples and trained your data, click Export Model.
+ <br>
+ <br> 
 
-<br>
-<br> 
+ </details>
 
-![trainedscreen](/images/trainedscreen.png)
+ <details>
 
-<br>
-<br> 
+ <summary> 4. Export your Model.  </summary>
 
-</details>
+ <br>
+ <br> 
 
-<details>
- 
-<summary>5. Get the model url  </summary>
+ Once you have recorded all samples and trained your data, click Export Model.
 
-<br>
-<br>  
+ <br>
+ <br> 
 
-Click on the Upload/Update my cloud model to create or update your model url. Copy the url from this page. 
+ ![trainedscreen](/images/trainedscreen.png)
 
-<br>
-<br> 
+ <br>
+ <br> 
 
-![update](/images/update.png)
+ </details>
 
-<br>
-<br> 
+ <details>
 
-</details>
+ <summary> 5. Get the model url  </summary>
 
-<details>
- 
-<summary> 5.	Edit the TeachableMachine.html file. </summary>
+ <br>
+ <br>  
 
-<br>
-<br>  
+ Click on the Upload/Update my cloud model to create or update your model url. Copy the url from this page. 
 
-Download and right-click and open the TeachableAudio.html file in a text editor like Sublime Text or VSCode. 
-Paste the model url in the URL line. 
-Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables.
+ <br>
+ <br> 
 
-<br>
-<br> 
+ ![update](/images/update.png)
 
-![apiupdate](/images/updateapi.png)
+ <br>
+ <br> 
 
-<br>
-<br> 
+ </details>
 
-</details>
+ <details>
+
+ <summary> 6.	Edit the TeachableMachine.html file. </summary>
+
+ <br>
+ <br>  
+
+ Download and right-click and open the TeachableAudio.html file in a text editor like Sublime Text or VSCode. 
+ Paste the model url in the URL line. 
+ Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables.
+
+ <br>
+ <br> 
+
+ ![apiupdate](/images/updateapi.png)
+
+ <br>
+ <br> 
+
+ </details>
 
 </details>
 
