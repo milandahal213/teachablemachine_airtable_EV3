@@ -1,8 +1,8 @@
-# airtable
+# Getting started with Airtable
 
 
 <details>
-<summary>Creating account - Creating Base </summary>
+<summary>Creating accounton Airtable - Creating Base </summary>
 
 <h3> 1. Go to https://airtable.com </h3>
 </br>
@@ -63,7 +63,7 @@
 
 </details>
 
-# teachablemachine_airtable_EV3
+# Setting up Teachable Machine
 <details>
  
 <summary> Setting up the html file:</summary>
@@ -165,7 +165,7 @@
 
  Download and right-click and open the TeachableAudio.html file in a text editor like Sublime Text or VSCode. 
  Paste the model url in the URL line. 
- Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables.
+ Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables. Refer to airtable section above on how to do that. 
 
  <br>
  <br> 
