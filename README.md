@@ -63,7 +63,10 @@
 
 </details>
 
-# Setting up Teachable Machine
+# Setting up Teachable Machine on PC
+
+Download the TeachableMachine.html file from <i> On PC </i> folder. 
+
 <details>
  
 <summary> Setting up the html file:</summary>
@@ -211,6 +214,8 @@ If you would like to record all the sound results then simply remove the section
  
 # Setting up the library on EV3
 
+Download the airtable.py, secrets.py, demo.py and main.py file from <i> On EV3 </i> folder and save them on your projects folder on EV3.
+
 <details>
   <summary>Using the library</summary>
    
@@ -257,6 +262,7 @@ Delete_AT('Table_name',"record_id")  deletes the  record with "record_id" from t
 
 <h3> 3. Edit the main.py file</h3>
 
+You can start playing with the library using main.py. It shows how you can import airtable library and use the available function. 
 
 
 </details>
