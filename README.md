@@ -1,6 +1,6 @@
 # teachablemachine_airtable_EV3
 <details>
-<summary> #Setting up the html file:</summary>
+<summary> Setting up the html file:</summary>
 <details>
 <summary>1.	Train your Teachable Machine code. </summary>
 
@@ -83,5 +83,17 @@ Similarly, Obtain APIKey and BaseID for your Airtable document and replace the t
 </details>
 
 <details>
-<summary> #Using the html file:</summary>
+<summary> Using the html file:</summary>
+ 
+</br>
+</br> 
+After editing the html file with model url, APIKey and BaseID open it on your browser and hit start button. 
+If it hears one of your trained models it creates a record on the Airtable document.
+
+The Airtable document is  updated only when a different sound is registered. For example, if I have a model with snap and ticking sound and I snap twice Airtable will only update the record with snap once. This is done to avoid unnecessarily creating too many records. 
+
+If you would like to record all the sound results then simply remove the section below with sendData(classLabels[highestIndex]);
+
+![apiupdate](/images/code.png)
+ 
  </details>
