@@ -2,7 +2,7 @@
 
 
 <details>
-<summary>Creating accounton Airtable - Creating Base </summary>
+<summary>Creating account on Airtable - Creating Base </summary>
 
 <h3> 1. Go to https://airtable.com </h3>
 </br>
