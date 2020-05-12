@@ -82,8 +82,10 @@
           
             if (classLabels[highestIndex]!= lastvalue){
                 
-                sendData(classLabels[highestIndex]);
                 lastvalue=classLabels[highestIndex];
+                if(lastvalue!="_background_noise_"){
+                sendData(classLabels[highestIndex]);
+            }
             }
         }, {
             includeSpectrogram: true, // in case listen should return result.spectrogram
