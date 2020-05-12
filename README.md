@@ -65,7 +65,7 @@
 
 # Setting up Teachable Machine on PC
 
-Download the TeachableMachine.html file from <i> On PC </i> folder. 
+Download the TeachableAudio.html file from <i> On PC </i> folder. 
 
 <details>
  
@@ -161,13 +161,13 @@ Download the TeachableMachine.html file from <i> On PC </i> folder.
 
  <details>
 
- <summary> 6.	Edit the TeachableMachine.html file. </summary>
+ <summary> 6.	Edit the TeachableAudio.html file. </summary>
 
  <br>
  <br>  
 
- Download and right-click and open the TeachableAudio.html file in a text editor like Sublime Text or VSCode. 
- Paste the model url in the URL line. 
+ Right-click and open the downloaded TeachableAudio.html file in a text editor like Sublime Text or VSCode. In the editable section of the html file, <br> 
+ Paste the model url in the URL line. <br>
  Similarly, Obtain APIKey and BaseID for your Airtable document and replace the text for APIKey and BaseID variables.  Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on how to do it.
 
  <br>
