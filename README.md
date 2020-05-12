@@ -209,7 +209,7 @@ If you would like to record all the sound results then simply remove the section
  
  </details>
  
-# Setting up the library
+# Setting up the library on EV3
 
 <details>
   <summary>Using the library</summary>
