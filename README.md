@@ -168,6 +168,10 @@ Open the TeachableAudio.html file on a browser of your choice. We have tested it
 
 Enter the url from Step 5 in the text box saying <i>url</i>.
 Also enter the APIKey and BaseID for your  Airtable document in their respective boxes.
+
+<br>
+Click Start to begin.
+
 <br>
 Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on where to find them.
 
