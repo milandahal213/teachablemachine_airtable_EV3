@@ -40,5 +40,7 @@
 <h2> Creating the App Key </h2> </br>
 
 <h3> 1. Go to https://airtable.com/account</h3>
+
+
 ![api welcome screen](/images/apiwelcome.png)
 
