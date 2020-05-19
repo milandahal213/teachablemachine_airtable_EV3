@@ -1,18 +1,32 @@
 #!/usr/bin/env pybricks-micropython
-
-from pybricks import ev3brick as brick
+from pybricks.hubs import EV3Brick
+#from pybricks import ev3brick as brick
 from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
-                                 InfraredSensor, UltrasonicSensor, GyroSensor)
+                                InfraredSensor, UltrasonicSensor, GyroSensor)
 from pybricks.parameters import (Port, Stop, Direction, Button, Color,
-                                 SoundFile, ImageFile, Align)
+                                SoundFile, ImageFile, Align)
 from pybricks.tools import print, wait, StopWatch
 from pybricks.robotics import DriveBase
-import math
-import ubinascii, ujson, urequests, utime
-import airtable
-brick.sound.beep()   
-Sound = airtable.Get_AT("Table 1","Name")
-print(Sound)
+import secrets
+
+# Write your program here
+ev3 = EV3Brick()
+ev3.speaker.beep()
+motorA=Motor(Port.A)
+
+while True:
+
+   Voice_command = airtable.Get_AT("Table 1","Name")
+   
+   if Voice_command=="start":
+       motorA.run(50)
+   elif Voice_command=="stop":
+       motorA.stop()
+   else:
+       pass
+
+   wait(100)
+
 
 '''
 By calling Get_AT, you will receive the name of the most likely sound, after you've trained your model.
