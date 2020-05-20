@@ -8,6 +8,7 @@ from pybricks.parameters import (Port, Stop, Direction, Button, Color,
 from pybricks.tools import print, wait, StopWatch
 from pybricks.robotics import DriveBase
 import secrets
+import airtable
 
 # Write your program here
 ev3 = EV3Brick()
@@ -16,11 +17,11 @@ motorA=Motor(Port.A)
 
 while True:
 
-   Voice_command = airtable.Get_AT("Table 1","Name")
-   
-   if Voice_command=="start":
+   voice_command = airtable.Get_AT("Table 1","Name")
+   print(voice_command)
+   if voice_command=="Class 1: Open":
        motorA.run(50)
-   elif Voice_command=="stop":
+   elif voice_command=="Class 2: Close":
        motorA.stop()
    else:
        pass
