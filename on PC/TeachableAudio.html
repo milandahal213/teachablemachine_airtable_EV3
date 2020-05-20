@@ -2,30 +2,24 @@
 
 <div style="width:100%;">
 <div style="width: 50%; margin:0px auto; text-align: center;"> <h2>Teachable Machine Audio Model</h2></div>
-<button style="position:absolute; top:60%; left:30%; height:10% ;width:40%; background-color: #00AA00;" type="button" onclick="init()">Start</button>
-<div style="width: 50%; margin:0px auto; text-align: center;" id="label-container"></div>
+
+<div style="position:relative; top:10%;width: 100%; margin:0px auto; text-align: center;" id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
 
-<div style="width: 100%; margin:0px auto; text-align: center;">
-<div style=" width:50%;display: inline-block; text-align: center;">    
-<form id="form" onsubmit="return false;">
-<input style=" width:40%;" type="text" id="API" placeholder="ApiKey" /> <br><br>
-<input style=" width:40%;" type="text" id="BaseID" placeholder="BaseID" /><br><br>
-<input style=" width:40%;" type="text" id="URL" placeholder="URL"  /><br><br>
-<input style=" width:20%;" type="submit" onclick="othername();" />
+<div style="position:relative; top:10%;  width: 100%; margin:0px auto; text-align: center;">
+ 
+<form style="text-align: center;" id="form" onsubmit="return false;">
+
+All fields must be filled.  <br><br><br>
+Airtable ApiKey : <input style=" width:40%;" type="text" id="API" placeholder="ApiKey" /> <br><br>
+Airtable Base ID : <input style=" width:40%;" type="text" id="BaseID" placeholder="BaseID" /><br><br>
+Teachable Machine url : <input style=" width:40%;" type="text" id="URL" placeholder="URL"  /><br><br>
+<input style="position:relative; top:50%;  height:10% ;width:40%; background-color: #00AA00;" type="SUBMIT" onclick="othername();init();" />
 </form>
 </div>
 
-<div style=" width:50%; float:left;display: inline-block;text-align: center;">
-<form id="form" onsubmit="return false;">
-<input style="width:40%;" type="text" id="table" placeholder="Table 1" /><br><br>
-<input style=" width:40%;" type="text" id="field" placeholder="Name" /><br><br>
 
-<input style=" height:200px; width:20%; " type="submit" onclick="optional();" />
-</form>
-</div>
-</div>
 
 <script type="text/javascript">
 
