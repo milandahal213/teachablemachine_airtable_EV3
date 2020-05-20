@@ -171,7 +171,7 @@ Also enter the APIKey and BaseID for your  Airtable document in their respective
 
 <br>
 <br>
-Click Start to begin.
+Click submit to begin.
 
 
  <br>
