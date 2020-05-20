@@ -167,15 +167,11 @@ Download the TeachableAudio.html file from <i> On PC </i> folder.
 Open the TeachableAudio.html file on Google Chrome. 
 
 Enter the url from Step 5 in the text box saying <i>url</i>.
-Also enter the APIKey and BaseID for your  Airtable document in their respective boxes.
+Also enter the APIKey and BaseID for your  Airtable document in their respective boxes. Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on where to find them.
 
+<br>
 <br>
 Click Start to begin.
-
-<br>
-Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> above on where to find them.
-
-<i>Note: If you have  edited the Table name and Field name on your Airtable you will have to edit the html file and update the "Editable Section" . </i>
 
 
  <br>
@@ -185,7 +181,11 @@ Refer to the sections <i> Finding the BaseID </i> and <i> Creating API Key </i> 
 
  <br>
  <br> 
+ 
+ <i>Note: If you have  edited the Table name and Field name on your Airtable you will have to edit the html file and update the "Editable Section" . </i>
 
+ <br>
+ <br>
  </details>
 
 
